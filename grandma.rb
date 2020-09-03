@@ -2,8 +2,10 @@
 def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
-  else
+  elsif phrase.match(/[a-z])
     return "HUH?! SPEAK UP SONNY!"
+#  else
+#    return "HUH?! SPEAK UP SONNY!"
   end
 end
 
