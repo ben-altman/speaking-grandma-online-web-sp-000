@@ -2,7 +2,7 @@
 def speak_to_grandma(phrase)
   if phrase.match(/[a-z]/)? true
     puts "HUH?! SPEAK UP, SONNY!"
-  else 
+  else
   end
 end
 
