@@ -1,8 +1,8 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if !!phrase.match(/[a-z]/) == true
+  if phrase.match(/[a-z]/)? true
     puts "HUH?! SPEAK UP, SONNY!"
-
+  else 
   end
 end
 
